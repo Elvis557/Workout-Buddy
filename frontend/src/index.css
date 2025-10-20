@@ -112,6 +112,8 @@ div.error{
   margin: 20px 0;
 }
 
+//tablet
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .home{
@@ -135,6 +137,8 @@ div.error{
     padding: 15px;
   }
 }
+
+//mobile phones
 
 @media (max-width: 480px){
   header .container{
