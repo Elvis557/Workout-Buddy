@@ -6,17 +6,14 @@
   --primary: #1aac83;
   --error: #e7195a;
 }
-
 body{
   background: #f1f1f1;
   margin: 0;
   font-family: "Poppins";
 }
-
 header{
   background: #fff;
 }
-
 header .container{
   max-width: 1400px;
   margin: 0 auto;
@@ -25,12 +22,10 @@ header .container{
   align-items: center;
   justify-content: space-between;
 }
-
 header a{
   color: #333;
   text-decoration: none;
 }
-
 .pages{
   max-width: 1400px;
   padding: 20px;
@@ -40,10 +35,9 @@ header a{
 /*homepage*/
 .home{
   display: grid;
-  grid-template-columns: 3fr 1fr ;
+  grid-template-columns: 3fr 1fr;
   gap: 100px;
 }
-
 .workout-details{
   background: #fff;
   border-radius: 4px;
@@ -52,19 +46,16 @@ header a{
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
-
 .workout-details h4{
   margin: 0 0 18px 0;
   font-size: 1.2em;
   color: var(--primary);
 }
-
 .workout-details p{
   margin: 0;
   font-size: 0.9em;
   color: #333;
 }
-
 .workout-details span{
   position: absolute;
   top: 20px;
@@ -80,7 +71,6 @@ header a{
 label, input{
   display: block;
 }
-
 input{
   padding: 20px;
   margin-top: 10px;
@@ -89,14 +79,11 @@ input{
   border: 1px solid #ddd;
   box-sizing: border-box;
 }
-
 form input{
   font-family: "Poppins";
   font-size: 1em;
-  outline: #333;
- 
+  outline: none;
 }
-
 form button{
   background: var(--primary);
   border: 0;
@@ -105,28 +92,17 @@ form button{
   font-family: "Poppins";
   border-radius: 4px;
   margin: 20px 0;
+  cursor: pointer;
 }
-
-div .error{
-  padding: 10px;
-  background: #ffefef;
-  border: 1px solid var(--error);
-  color: var(--error);
-  margin: 20px 0;
-}
-
 button{
   cursor: pointer;
 }
-
 button:hover{
   opacity: 0.9;
 }
-
 input.error{
   border-color: var(--error);
 }
-
 div.error{
   padding: 10px;
   background: #ffefef;
@@ -136,68 +112,56 @@ div.error{
   margin: 20px 0;
 }
 
-
+/* Responsive Styles */
 @media (max-width: 768px) {
-    .home{
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-
-    header .container{
-      padding: 10px 15px ;
-    }
-
-    .pages{
-      padding: 15px;
-    }
-
-    .workout-details h4 {
-      font-size: 1.1em;
-    }
-
-    form button {
-      padding: 12px 15px;
-      font-size: 0.95em;
-    }
-
-    input{
-      padding: 15px;
-    }
+  .home{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  header .container{
+    padding: 10px 15px;
+  }
+  .pages{
+    padding: 15px;
+  }
+  .workout-details h4 {
+    font-size: 1.1em;
+  }
+  form button {
+    padding: 12px 15px;
+    font-size: 0.95em;
+  }
+  input{
+    padding: 15px;
+  }
 }
 
 @media (max-width: 480px){
   header .container{
     padding: 10px 10px;
   }
-
   .pages{
     padding: 10px;
   }
-
   .workout-details{
     margin: 10px 0;
     padding: 12px;
   }
-
   .workout-details h4 {
     font-size: 1em;
     margin-bottom: 10px;
   }
-
   .workout-details p {
     font-size: 0.85em;
   }
-
   input {
     padding: 12px;
     margin-bottom: 15px;
   }
-
   form button {
     padding: 10px;
     font-size: 0.9em;
   }
-
   label {
     font-size: 0.95em;
   }
