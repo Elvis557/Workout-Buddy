@@ -9,7 +9,7 @@ const Home = () => {
 
     useEffect(() => {
         const fetchWorkouts = async () => {
-            const response = await fetch('https://workout-buddy-api.onrender.com/api/workouts');
+            const response = await fetch('https://workout-buddy-3hq7.onrender.com/api/workouts');
             const json = await response.json()
 
             if(response.ok){
