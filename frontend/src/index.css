@@ -135,3 +135,70 @@ div.error{
   border-radius: 4px;
   margin: 20px 0;
 }
+
+
+@media (max-width: 768px) {
+    .home{
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    header .container{
+      padding: 10px 15px ;
+    }
+
+    .pages{
+      padding: 15px;
+    }
+
+    .workout-details h4 {
+      font-size: 1.1em;
+    }
+
+    form button {
+      padding: 12px 15px;
+      font-size: 0.95em;
+    }
+
+    input{
+      padding: 15px;
+    }
+}
+
+@media (max-width: 480px){
+  header .container{
+    padding: 10px 10px;
+  }
+
+  .pages{
+    padding: 10px;
+  }
+
+  .workout-details{
+    margin: 10px 0;
+    padding: 12px;
+  }
+
+  .workout-details h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .workout-details p {
+    font-size: 0.85em;
+  }
+
+  input {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  label {
+    font-size: 0.95em;
+  }
+}
