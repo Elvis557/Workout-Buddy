@@ -1,6 +1,5 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 /*layout*/
 :root{
   --primary: #1aac83;
@@ -31,7 +30,6 @@ header a{
   padding: 20px;
   margin: 0 auto;
 }
-
 /*homepage*/
 .home{
   display: grid;
@@ -66,7 +64,6 @@ header a{
   border-radius: 50%;
   color: #333;
 }
-
 /*New Workout Form*/
 label, input{
   display: block;
@@ -111,9 +108,7 @@ div.error{
   border-radius: 4px;
   margin: 20px 0;
 }
-
-//tablet
-
+/* tablet */
 /* Responsive Styles */
 @media (max-width: 768px) {
   .home{
@@ -137,9 +132,7 @@ div.error{
     padding: 15px;
   }
 }
-
-//mobile phones
-
+/* mobile phones */
 @media (max-width: 480px){
   header .container{
     padding: 10px 10px;
